@@ -1,0 +1,21 @@
+Chronologic VCS simulator copyright 1991-2014
+Contains Synopsys proprietary information.
+Compiler version I-2014.03-2; Runtime version I-2014.03-2;  Dec  6 23:36 2015
+time =  0: R = xxxxxxxx, error = x, done = x
+A. time = 10: A = 00000001, B = 00000010, C = 00000011, D = 11110000
+time = 10: R = 00000001, error = 1, done = 1
+B. time = 40: A = 00000001, B = 00000010, C = 00000011, D = 11110000
+C. time = 50: A = 01111111, B = 00000001, C = 00000001, D = 00000000
+time = 50: R = 01111111, error = 1, done = 1
+D. time = 60: A = 01111110, B = 00000001, C = 00000001, D = 00000000
+time = 60: R = 01111110, error = 1, done = 1
+E. time = 70: A = 01111110, B = 00000001, C = 00000001, D = 00000000
+F. time = 80: A = 11111111, B = 00000001, C = 01111111, D = 00000001
+time = 80: R = 11111111, error = 1, done = 1
+G. time = 90: A = 11111111, B = 00000001, C = 01010101, D = 11111111
+$finish called from file "p3test.v", line 50.
+$finish at simulation time                  100
+           V C S   S i m u l a t i o n   R e p o r t 
+Time: 100
+CPU Time:      0.470 seconds;       Data structure size:   0.0Mb
+Sun Dec  6 23:36:15 2015
